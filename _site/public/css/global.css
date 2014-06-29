@@ -1,0 +1,135 @@
+.cp-logo-small {
+	height:30px;
+	width:30px;
+}
+
+.cp-viewer {
+	min-height:600px;
+	background-image: url('../images/background.png');
+
+}
+
+.cp-image-container {
+	overflow: auto;
+}
+.cp-image-container img {
+	float:left;
+	margin:20px;
+}
+
+.cp-page-title {
+	padding:10px;
+	background-color: #1566AE;
+	margin: 20px 0px 20px 0px;
+	width:300px;
+	font-size: 24px;
+	font-weight: 900;
+	color: #ffffff;
+	border-radius:5px;
+	border-bottom-color:#559922;
+	border-bottom-style:solid;
+	border-bottom-width: 5px;
+
+}
+
+.cp-caption  {
+	margin-top: 10px;
+	padding:20px;
+	background: rgba(000,000,000,0.5);
+	color:#ffffff;
+	text-align: center;
+	font-size: 38px;
+}
+
+/* body*/
+.content {
+	min-height: 600px;
+	background: url('../images/grey.png');
+}
+
+/* blue :1566AE*/
+/*green 559922*/
+
+.navbar {
+	margin-bottom: 0px;
+	border-radius:0px;
+}
+
+.navbar-brand {
+	padding:0px;
+}
+.navbar-brand img {
+    height:50px;
+    width:120px;
+    margin-right:100px;
+}
+
+
+
+@media (min-width: 1000px) {
+	.navbar {
+		height:85px;
+		border-bottom-color:#1566AE;
+		border-bottom-style:solid;
+		border-bottom-width: 5px;
+
+	}
+	.navbar-brand img {
+	    height:78px;
+	    width:250px;
+	    margin-right:100px;
+
+	}
+
+	.navbar-nav li a {
+		height:80px;
+		line-height: 80px;
+		padding-top: 0;
+		font-size: 20px;	
+	}
+
+	.navbar-nav > .active > a {
+		background-color:#1566AE !important;
+		color:#fff !important;
+		height:85px;
+		border-bottom-color:#559922;
+		border-bottom-width:5px;
+		border-bottom-style:solid;
+	}
+}
+
+.hide-desc {
+	display:none;
+	padding:10px;
+}
+
+
+canvas {
+	width:1000;
+	height:100%;
+}
+
+.cp-footer {
+	background: url('../images/squairy_light.png'); 
+	padding-top:10px;
+	border-top-color:#559922;
+	border-top-width:5px;
+	border-top-style:solid;
+}
+
+.cp-copyright {
+	background: url('../images/dark_Tire.png'); 
+	height:30px;
+	line-height:30px;
+	text-align: right;
+	padding-right: 20px;
+	color:#ffffff;
+
+
+}
+
+.cp-icon {
+	cursor:pointer;
+	color:#1566AE;
+	font-weight: bold;
+}

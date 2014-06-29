@@ -1,0 +1,63 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            AbRegen
+tagline:          Sample
+url:              
+paginate:         1
+baseurl:          /
+author:
+  name:           Nitin Malpe
+  url:            malpenitin@gmail.com
+  email:          malpenitin@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/malpenitin/abregen
+
+
+# Menu Structure
+menu:
+- group:        1
+  title:        Home
+  url:          ""
+  hassubmenu:   false
+- group:        2
+  title:        About
+  url:          about
+  hassubmenu:   true
+  submenu:
+  - subitem:    1
+    title:      Company Summary
+    url:        company_summary
+  - subitem:    2
+    title:      Board and Management
+    url:        board_and_management
+- group:        3
+  title:        Technology
+  url:          ""
+  hassubmenu:   true
+  submenu:
+  - subitem:    1
+    title:      Flightless 1
+    url:        flightless_1
+  - subitem:    2
+    title:      Publications
+    url:        publications
+- group:        4
+  title:        Therapeutic Focus
+  url:          therapeutic_focus
+  hassubmenu:   false
+- group:        5
+  title:        Contact
+  url:          contact
+  hassubmenu:   false
+
+
+
