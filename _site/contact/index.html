@@ -136,33 +136,34 @@
         </div>
 	</div>
 	<div class="col-sm-7">
-		<div class="thumbnail" id="map-canvas" style="height:500px; width:100%"></div>	
+		<div class="thumbnail" id="map-canvas" img-src="/public/images/map_icon.png" style="height:500px; width:100%"></div>	
 	</div>
 </div>
 
 
 <script type="text/javascript">
-	 var map;
-      function initialize() {
-      	var myLatlng = new google.maps.LatLng(-34.912493, 138.567496);
+	$(document).ready(function(){
+	 	var map;
+      	function initialize() {
+      		var myLatlng = new google.maps.LatLng(-34.912493, 138.567496);
 
-        var mapOptions = {
-          zoom: 17,
-          center: myLatlng,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-        var image = "/public/images/map_icon.png";
-        var marker = new google.maps.Marker({
-		      position: myLatlng,
-		      map: map,
-		      title: 'AbRegen',
-		      icon:image
-		  });
-      }
-      initialize();
-     
-    </script>
+	        var mapOptions = {
+	          	zoom: 17,
+	          	center: myLatlng,
+	          	mapTypeId: google.maps.MapTypeId.ROADMAP
+	        }
+        	var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+        	var image = $('#map-canvas').attr('img-src');
+        	var marker = new google.maps.Marker({
+		      	position: myLatlng,
+		      	map: map,
+		      	title: 'AbRegen',
+		      	icon:image
+		  	});
+      	}
+      	initialize();
+  	});     
+</script>
 
 
 </div>
