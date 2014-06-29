@@ -33,7 +33,7 @@
 }
 
 .cp-caption  {
-	margin-top: 10px;
+	margin-top: 250px;
 	padding:20px;
 	background: rgba(000,000,000,0.5);
 	color:#ffffff;
@@ -124,8 +124,12 @@ canvas {
 	text-align: right;
 	padding-right: 20px;
 	color:#ffffff;
+}
 
-
+.cp-pub {
+	background-color: #000000;
+	color:#ffffff;
+	padding:5px;
 }
 
 .cp-icon {
