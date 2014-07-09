@@ -10,7 +10,7 @@ var chart_1_data = {
 			pointColor : "rgba(220,220,220,1)",
 			pointStrokeColor : "#fff",
 			data : [4.5,9,8,10,5,3,3,3,2],
-			title: 'FnAB'
+			title: 'Anti-flightless 1'
 		},
 		{
 			fillColor : "rgba(151,187,205,0.5)",
@@ -18,7 +18,7 @@ var chart_1_data = {
 			pointColor : "rgba(151,187,205,1)",
 			pointStrokeColor : "#fff",
 			data : [4,14,12,16,12.5,11,6,5.8,4],
-			title: 'IgG'
+			title: 'Control antibody'
 		}
 	]
 }
@@ -63,7 +63,9 @@ var chart_2_options =  {
 							scaleOverride: true,
 						    scaleSteps: steps,
 						    scaleStepWidth: Math.ceil(500 / steps),
-						    scaleStartValue: 0
+						    scaleStartValue: 0,
+						    bezierCurve : false,
+						    datasetFill : false
 						};
 
 // default resize the canvas

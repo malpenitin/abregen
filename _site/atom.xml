@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>AbRegen</title>
- <link href="/atom.xml" rel="self"/>
- <link href="/"/>
- <updated>2014-06-29T20:07:54+09:30</updated>
+ <link href="/abregen/atom.xml" rel="self"/>
+ <link href="/abregen/"/>
+ <updated>2014-07-09T23:29:55+09:30</updated>
  <id></id>
  <author>
    <name>Nitin Malpe</name>
