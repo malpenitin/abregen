@@ -29,16 +29,9 @@ menu:
   url:          ""
   hassubmenu:   false
 - group:        2
-  title:        About
-  url:          about
-  hassubmenu:   true
-  submenu:
-  - subitem:    1
-    title:      Company Summary
-    url:        company_summary
-  - subitem:    2
-    title:      Board and Management
-    url:        board_and_management
+  title:        Board and Management
+  url:          board_and_management
+  hassubmenu:   false
 - group:        3
   title:        Technology
   url:          ""
