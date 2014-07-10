@@ -47,6 +47,10 @@ menu:
   title:        Therapeutic Focus
   url:          therapeutic_focus
   hassubmenu:   false
+- group:        6
+  title:        News
+  url:          news
+  hassubmenu:   false
 - group:        5
   title:        Contact
   url:          contact
