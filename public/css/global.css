@@ -1,3 +1,12 @@
+
+/* blue :1566AE*/
+/*green 559922*/
+
+body {
+	background:#ffffff;
+	background: url('../images/grey.png');
+}
+
 .cp-logo-small {
 	height:30px;
 	width:30px;
@@ -51,13 +60,11 @@
 }
 
 /* body*/
-.content {
-	min-height: 600px;
-	background: url('../images/grey.png');
+.cp-content {
+	max-width: 1024px;
+
 }
 
-/* blue :1566AE*/
-/*green 559922*/
 
 .navbar {
 	margin-bottom: 0px;
@@ -80,6 +87,24 @@
 		border-bottom-color:#1566AE;
 		border-bottom-style:solid;
 		border-bottom-width: 5px;
+
+		order-color: #fff;
+	
+	/* background color (for non css3 browsers) and gradient */
+	background-color: rgba(255,255,255,0.5);
+	background: -moz-linear-gradient(top,
+		rgba(255,255,255,0.65),
+		rgba(255,255,255,0.55) 49.9%,
+		rgba(255,255,255,0.3) 50%,
+		rgba(255,255,255,0.45)
+	);
+	background: -webkit-gradient(linear, left top, left bottom,
+		from(rgba(255,255,255,0.65)),
+		color-stop(0.49, rgba(255,255,255,0.5)),
+		color-stop(0.5, rgba(255,255,255,0.3)),
+		to(rgba(255,255,255,0.45))
+	);
+	background-color: #fff; /* FOR IE */
 
 	}
 	.navbar-brand img {
@@ -194,7 +219,93 @@ a {
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
 }
 
+.cp-news {
+	background: url('../images/linedpaper.png'); 
+}
+
 .badge .active {
 	background-color: #000000;
 	color:#ffffff;
+}
+
+.cp-calendar {
+    height:100px;
+    width:100px;
+    border-style:solid;
+    border-width:3px;
+    border-color: #999999;
+
+     box-shadow: 0 1px 1px rgba(0,0,0,0.3),
+                0 6px 0 -3px #fff,
+                0 7px 1px -3px rgba(0,0,0,0.3),
+                0 12px 0 -6px #fff,
+	            0 13px 1px -6px rgba(0,0,0,0.3),
+                0 18px 0 -9px #fff,
+				0 19px 1px -9px rgba(0,0,0,0.3),
+                0 24px 0 -12px #fff,
+				0 25px 20px -8px rgba(0, 0, 0, 0.2);
+	
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3),
+                0 6px 0 -3px #fff,
+                0 7px 1px -3px rgba(0,0,0,0.3),
+                0 12px 0 -6px #fff,
+	            0 13px 1px -6px rgba(0,0,0,0.3),
+                0 18px 0 -9px #fff,
+				0 19px 1px -9px rgba(0,0,0,0.3),
+                0 24px 0 -12px #fff,
+				0 25px 20px -8px rgba(0, 0, 0, 0.2);    
+    
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3),
+                0 6px 0 -3px #fff,
+                0 7px 1px -3px rgba(0,0,0,0.3),
+                0 12px 0 -6px #fff,
+	            0 13px 1px -6px rgba(0,0,0,0.3),
+                0 18px 0 -9px #fff,
+				0 19px 1px -9px rgba(0,0,0,0.3),
+                0 24px 0 -12px #fff,
+				0 25px 20px -8px rgba(0, 0, 0, 0.2);
+	background: #fff;
+} 
+.cp-calendar-year {
+    height:27px;
+    line-height:27px;
+    background-color: #1566AE; 	
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+ }
+ .cp-calendar-month {
+    height:67px;
+    line-height:67px;
+    font-size:28px;
+    text-align: center;
+    background-color: #ffffff; 	
+ }
+
+.cp-news-select {
+    padding:10px 0px;
+    background-color: rgba(000,000,000,0.8);
+    margin:10px 0px;
+    border-radius:5px;
+    overflow: auto;
+}
+
+
+.cp-news-tab {
+	width:100px;
+	height:29px;
+	line-height: 26px;
+	text-align: center;
+	background-color: #ffffff;
+	float:left;
+	border-style:solid;
+	border-width:2px;
+	border-color:#999999;
+	cursor:pointer;s
+
+}
+
+.cp-news-tab.active {
+	background-color: #559922;
+	color: #ffffff;
 }
