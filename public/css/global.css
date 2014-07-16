@@ -3,8 +3,22 @@
 /*green 559922*/
 
 body {
-	background:#ffffff;
-	background: url('../images/grey.png');
+	/*background-color: #dfdfdf;
+	background: -moz-linear-gradient(top,
+		#fff,
+		#dfdfdf 50%,
+		#cecece
+	);
+	background: -webkit-gradient(linear, left top, left bottom,
+		from(#fff),
+		color-stop(0.5, #dfdfdf),
+		to(#cecece)
+	);
+	
+	/* linear gradient for IE 5.5+ */
+	/*filter: progid:DXImageTransform.Microsoft.gradient(StartColorStr='#FFFFFF', EndColorStr='#CECECE');*/
+
+	background-color: #ffffff;
 }
 
 .cp-logo-small {
@@ -62,6 +76,7 @@ body {
 /* body*/
 .cp-content {
 	max-width: 1024px;
+	background:#ffffff;
 
 }
 
@@ -110,6 +125,14 @@ body {
 	.navbar-brand img {
 	    height:68px;
 	    width:241px;
+	}
+
+	.navbar-collapse {
+		max-width:1024px;
+	}
+
+	.navbar-nav {
+		float:right;
 	}
 
 	.navbar-nav li a {
