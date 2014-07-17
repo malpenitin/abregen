@@ -45,6 +45,8 @@ $(document).ready(function() {
 	        	//Sort based on sort number
 	        	news_data = _.sortBy(news_data,function(sort_order) { return sort_order.news_date; });
 
+	        	news_data.reverse();
+
 	        	for(var i = 0; i < news_data.length; i++) {
 
 	        		var news= 	"<div class='row'>" +

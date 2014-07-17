@@ -10,7 +10,7 @@ title:            AbRegen
 tagline:          Sample
 url:              
 paginate:         1
-baseurl:          /abregen/
+baseurl:          /
 author:
   name:           Nitin Malpe
   url:            malpenitin@gmail.com

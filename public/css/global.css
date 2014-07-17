@@ -3,7 +3,7 @@
 /*green 559922*/
 
 body {
-	/*background-color: #dfdfdf;
+	background-color: #dfdfdf;
 	background: -moz-linear-gradient(top,
 		#fff,
 		#dfdfdf 50%,
@@ -16,9 +16,7 @@ body {
 	);
 	
 	/* linear gradient for IE 5.5+ */
-	/*filter: progid:DXImageTransform.Microsoft.gradient(StartColorStr='#FFFFFF', EndColorStr='#CECECE');*/
-
-	background-color: #ffffff;
+	filter: progid:DXImageTransform.Microsoft.gradient(StartColorStr='#FFFFFF', EndColorStr='#CECECE');
 }
 
 .cp-logo-small {
