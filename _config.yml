@@ -38,8 +38,8 @@ menu:
   hassubmenu:   true
   submenu:
   - subitem:    1
-    title:      Flightless 1
-    url:        flightless_1
+    title:      Flightless I
+    url:        flightless_I
   - subitem:    2
     title:      Publications
     url:        publications
