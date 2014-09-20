@@ -93,6 +93,15 @@ body {
 }
 
 
+@media (max-width: 865px) and (min-width: 765px) {
+	.navbar-brand img{
+	    width:80px;
+	    height:30px;
+	    margin-top:10px;
+	}
+}
+
+
 
 @media (min-width:1024px) {
 	.navbar {
@@ -329,4 +338,13 @@ a {
 .cp-news-tab.active {
 	background-color: #559922;
 	color: #ffffff;
+}
+
+.zh-indent {
+	text-indent: 20px;
+}
+
+.translate img {
+	height:40px;
+	margin-top:20px;
 }
